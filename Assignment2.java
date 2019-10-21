@@ -6,7 +6,7 @@ public class Assignment2 {
 
 		public static void main(String[] args) {
 			
-			//1.Ask the USER for a string (it should print "Enter your Nameî)
+			//1.Ask the USER for a string (it should print "Enter your First Name and Last Name‚Äù)
 			//a.assume the user enters "His/her name"
 				System.out.println("Enter Your Name");
 				Scanner sc = new Scanner(System.in);
@@ -19,7 +19,7 @@ public class Assignment2 {
 			//3.Print the length of that string (it should print as per the input given by user)
 				System.out.println(name.length());
 				
-			//4.Replace 'yí with ëií (it should print as per the user input)
+			//4.Replace 'y‚Äô with ‚Äòi‚Äô (it should print as per the user input)
 				String newname = name.replace("y", "i");
 				System.out.println(newname);
 				
@@ -28,7 +28,7 @@ public class Assignment2 {
 				String lastchar = newname.substring(allchar-2);
 				System.out.println(lastchar);
 				
-			//6.Concatenate the string from step 1 with string "Test" (it should print User name +"Testerî)
+			//6.Concatenate the string from step 1 with string "Test" (it should print User name +"Tester‚Äù)
 				System.out.println(name + " Tester");
 				
 				System.out.println(name.charAt(5));
